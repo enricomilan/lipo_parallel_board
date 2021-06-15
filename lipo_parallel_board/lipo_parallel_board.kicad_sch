@@ -1,4 +1,4 @@
-(kicad_sch (version 20210406) (generator eeschema)
+(kicad_sch (version 20210606) (generator eeschema)
 
   (uuid 224deea8-0bd5-44e4-9c0c-64cf961c993d)
 
@@ -1288,8 +1288,8 @@
     (in_bom yes) (on_board yes)
     (uuid b1cfcff2-c4b4-4394-a857-9695f4470d58)
     (property "Reference" "J28" (id 0) (at 168.7576 180.4204 0))
-    (property "Value" "XT30_F" (id 1) (at 163.6776 175.5817 0))
-    (property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical" (id 2) (at 166.37 179.07 0)
+    (property "Value" "XT60_F" (id 1) (at 163.6776 175.5817 0))
+    (property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" (id 2) (at 166.37 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 166.37 179.07 0)
@@ -1802,7 +1802,7 @@
       (reference "J27") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical")
     )
     (path "/b1cfcff2-c4b4-4394-a857-9695f4470d58"
-      (reference "J28") (unit 1) (value "XT30_F") (footprint "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical")
+      (reference "J28") (unit 1) (value "XT60_F") (footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical")
     )
     (path "/57c16db1-0054-4508-80a0-bc21684ad401"
       (reference "J29") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical")
