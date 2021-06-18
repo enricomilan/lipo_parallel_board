@@ -1133,7 +1133,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 43.18 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d7696b1b-2485-4424-8b6d-e83abf8e561b)
-    (property "Reference" "H?" (id 0) (at 45.7201 171.9591 0)
+    (property "Reference" "H1" (id 0) (at 45.7201 171.9591 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 45.7201 174.2578 0)
@@ -1150,7 +1150,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 46.2411 185.916 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b7bd8ea1-99b7-44cb-a5f2-e732b37bcd13)
-    (property "Reference" "H?" (id 0) (at 48.7812 185.1551 0)
+    (property "Reference" "H2" (id 0) (at 48.7812 185.1551 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 48.7812 187.4538 0)
@@ -1167,7 +1167,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 66.4123 173.4573 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 27f81133-e52b-4bdd-a058-31f02d46ce3b)
-    (property "Reference" "H?" (id 0) (at 68.9524 172.6964 0)
+    (property "Reference" "H3" (id 0) (at 68.9524 172.6964 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 68.9524 174.9951 0)
@@ -1184,7 +1184,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 67.31 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9885dae3-bb60-47cd-8cf9-fa88df541124)
-    (property "Reference" "H?" (id 0) (at 69.8501 184.6591 0)
+    (property "Reference" "H4" (id 0) (at 69.8501 184.6591 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (id 1) (at 69.8501 186.9578 0)
@@ -1814,17 +1814,17 @@
   )
 
   (symbol_instances
-    (path "/27f81133-e52b-4bdd-a058-31f02d46ce3b"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
-    )
-    (path "/9885dae3-bb60-47cd-8cf9-fa88df541124"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    (path "/d7696b1b-2485-4424-8b6d-e83abf8e561b"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/b7bd8ea1-99b7-44cb-a5f2-e732b37bcd13"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
-    (path "/d7696b1b-2485-4424-8b6d-e83abf8e561b"
-      (reference "H?") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    (path "/27f81133-e52b-4bdd-a058-31f02d46ce3b"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
+    )
+    (path "/9885dae3-bb60-47cd-8cf9-fa88df541124"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/d45b566e-41c0-4bd6-8494-ad1f3b06dbcf"
       (reference "J1") (unit 1) (value "Conn_01x07_Female") (footprint "Connector_JST:JST_XH_B7B-XH-AM_1x07_P2.50mm_Vertical")
